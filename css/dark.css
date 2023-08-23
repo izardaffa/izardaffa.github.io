@@ -1,0 +1,7 @@
+:root {
+    --bg: linear-gradient(to bottom right, #ff1493, #00bfff);
+    --primary: #090909;
+    --secondary: #ffffff;
+    --tertiary: #66ddff;
+    --shadow: 0 10px 15px -3px rgb(255 255 255 / 0.1), 0 10px 6px -4px rgb(255 255 255 / 0.1);
+}

@@ -4,8 +4,258 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Page</title>
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <link id="styleTheme" rel="stylesheet" href="css/light.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <!-- S:Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar-title">
+            <a href="#">izardaffa</a>
+        </div>
+
+        <div class="navbar-nav">
+            <a href="#top">Top</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#social">Social</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="theme" class="light active"><i data-feather="sun"></i></a>
+            <a href="#" id="theme" class="dark"><i data-feather="moon"></i></a>
+            <a href="#" id="menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- E:Navbar Section -->
+
+    <!-- S:Top Section -->
+    <section id="top" class="top">
+        <div class="top-container">
+            <h1>Welcome!</h1>
+
+            <div class="skill">
+                <!-- S:Skill Icons -->
+                <!-- Languages -->
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-css3-plain"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-typescript-plain"></i>
+                <i class="devicon-java-plain"></i>
+                <i class="devicon-php-plain"></i>
+                <i class="devicon-bash-plain"></i>
+                <i class="devicon-kotlin-plain"></i>
+                <i class="devicon-python-plain"></i>
+
+                <!-- Technologies -->
+                <i class="devicon-bootstrap-plain"></i>
+                <i class="devicon-tailwindcss-plain"></i>
+                <i class="devicon-feathersjs-original"></i>
+                <i class="devicon-jquery-plain"></i>
+                <i class="devicon-laravel-plain"></i>
+                <i class="devicon-codeigniter-plain"></i>
+                <i class="devicon-angularjs-plain"></i>
+                <i class="devicon-react-plain"></i>
+                <i class="devicon-vuejs-plain"></i>
+                <!-- <i class="devicon-wordpress-plain"></i> -->
+
+                <!-- Tools -->
+                <i class="devicon-linux-plain"></i>
+                <i class="devicon-apache-plain"></i>
+                <i class="devicon-mysql-plain"></i>
+                <i class="devicon-gradle-plain"></i>
+                <i class="devicon-composer-line"></i>
+                <i class="devicon-npm-original-wordmark"></i>
+                <i class="devicon-git-plain"></i>
+                <i class="devicon-androidstudio-plain"></i>
+                <i class="devicon-vscode-plain"></i>
+                <i class="devicon-intellij-plain"></i>
+                <i class="devicon-godot-plain"></i>
+                <!-- E:Skill Icons -->
+            </div>
+        </div>
+    </section>
+    <!-- E:Top Section -->
+
+    <!-- S:About Section -->
+    <section id="about" class="about">
+        <h1>About</h1>
+        <p>
+            <span id="greeting" title="UTC+7"></span> Hajimemashite, nama saya Nizar desu.
+            Awalnya cuma suka browsing website, sekarang bisa bikin website sendiri.
+            Sekarang lagi mau coba jadi GameDev. Yoroshiku!
+        </p>
+
+        <br>
+
+        <p>#<span id="waifu"></span>PunyaKu.</p>
+    </section>
+    <!-- E:About Section -->
+
+    <!-- S:Project Section -->
+    <section id="project" class="project">
+        <h1>Project List</h1>
+        <p>Project-project saya sejauh ini</p>
+
+        <div class="row">
+            <div class="card" onclick="redirectTo('#')">
+                <div class="card-img">
+                    <a href="#"><img src="img/projects/native-socmed.png" alt="Native Socmed"></a>
+                </div>
+                <div class="card-title">
+                    <h2><a href="#">Native Socmed</a></h2>
+                </div>
+                <div class="card-description">
+                    <p>Terinspirasi dari Facebook. Aplikasi ini saya buat ketika ada waktu luang (pas lagi PKL, waktu masih pemula, belum pake md5 njir).</p>
+                </div>
+            </div>
+            <div class="card" onclick="redirectTo('#')">
+                <div class="card-img">
+                    <a href="#"><img src="img/projects/app-rentalmobil.png" alt="Rental Mobil"></a>
+                </div>
+                <div class="card-title">
+                    <h2><a href="#">Rental Mobil</a></h2>
+                </div>
+                <div class="card-description">
+                    <p>Web App Rental Mobil adalah project UKK (PSKK/Ujian Kompetensi) waktu kelas 3 SMK.</p>
+                </div>
+            </div>
+            <div class="card" onclick="redirectTo('#')">
+                <div class="card-img">
+                    <a href="#"><img src="img/projects/garupa-clone.png" alt="Garupa Clone"></a>
+                </div>
+                <div class="card-title">
+                    <h2><a href="#">Garupa Clone</a></h2>
+                </div>
+                <div class="card-description">
+                    <p>Game rhythm seperti BanG Dream! yang saya buat untuk persiapan LKS Tingkat Kabupaten.</p>
+                </div>
+            </div>
+            <div class="card" onclick="redirectTo('#')">
+                <div class="card-img">
+                    <a href="#"><img src="img/projects/virus-slayer.png" alt="Virus Slayer"></a>
+                </div>
+                <div class="card-title">
+                    <h2><a href="#">Virus Slayer</a></h2>
+                </div>
+                <div class="card-description">
+                    <p>Game rhythm yang saya buat (berdasarkan soal LKS Provinsi tahun lalu) untuk persiapan LKS Tingkat Kabupaten, tapi ternyata yang dilombakan temanya mobil balap.</p>
+                </div>
+            </div>
+            <div class="card" onclick="redirectTo('#')">
+                <div class="card-img">
+                    <a href="#"><img src="img/projects/racing-game.png" alt="Racing Game"></a>
+                </div>
+                <div class="card-title">
+                    <h2><a href="#">Racing Game</a></h2>
+                </div>
+                <div class="card-description">
+                    <p>Game mobil balap yang saya buat untuk persiapan LKS Tingkat Kabupaten.</p>
+                </div>
+            </div>
+            <div class="card" onclick="redirectTo('#')">
+                <div class="card-img">
+                    <a href="#"><img src="img/projects/layout-tokobuku.png" alt="Layout Toko Buku"></a>
+                </div>
+                <div class="card-title">
+                    <h2><a href="#">Layout Toko Buku</a></h2>
+                </div>
+                <div class="card-description">
+                    <p>Project gabut membuat layout toko buku menggunakan Bootstrap 5.</p>
+                </div>
+            </div>
+            <div class="card" onclick="redirectTo('#')">
+                <div class="card-img">
+                    <a href="#"><img src="img/projects/classic-snake.png" alt="Classic Snake"></a>
+                </div>
+                <div class="card-title">
+                    <h2><a href="#">Classic Snake</a></h2>
+                </div>
+                <div class="card-description">
+                    <p>Game snake jadul yang saya buat untuk persiapan LKS Tingkat Provinsi.</p>
+                </div>
+            </div>
+            <div class="card" onclick="redirectTo('#')">
+                <div class="card-img">
+                    <a href="#"><img src="img/projects/kedai-kopi.png" alt="Kedai Kopi"></a>
+                </div>
+                <div class="card-title">
+                    <h2><a href="#">Kedai Kopi</a></h2>
+                </div>
+                <div class="card-description">
+                    <p>Layout Kedai Kopi yang saya buat dengan mengikuti tutorial ngobar WPU.</p>
+                </div>
+            </div>
+            <div class="card" onclick="redirectTo('#')">
+                <div class="card-img">
+                    <a href="#"><img src="img/projects/izardaffa.github.io.png" alt="Personal Page"></a>
+                </div>
+                <div class="card-title">
+                    <h2><a href="#">Personal Page</a></h2>
+                </div>
+                <div class="card-description">
+                    <p>Personal Page yang dibuat menggunakan vanilla HTML, CSS, dan JS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- E:Project Section -->
+
+    <!-- S:Social Section -->
+    <section id="social" class="social">
+        <h1>Social</h1>
+        <p>Find me on Twitter</p>
+
+        <a class="twitter-timeline" href="https://twitter.com/izardaffa?ref_src=twsrc%5Etfw">Tweets by izardaffa</a>
+    </section>
+    <!-- E:Social Section -->
+
+    <!-- S:Contact Section -->
+    <section id="contact" class="contact">
+        <h1>Contact</h1>
+        <p>Contact me</p>
+
+        <div class="contact-form">
+            <form action="mailto: izardev@gmail.com">
+                <div class="form-input">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-input">
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-input">
+                    <textarea name="message" id="message" placeholder="Text Message" required></textarea>
+                </div>
+                <div class="form-input">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- E:Contact Section -->
+
+    <!-- S:Footer Section -->
+    <footer>
+        <p>&copy; 2023 - <a href="">Nizar Daffa</a></p>
+    </footer>
+    <!-- E:Footer Section -->
+
+    <!-- Feather Icons -->
+    <script>
+        feather.replace()
+    </script>
+
+    <!-- Twitter Embed -->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+    <script src="js/script.js"></script>
 </body>
 </html>
