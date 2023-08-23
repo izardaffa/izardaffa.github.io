@@ -11,7 +11,7 @@
     <!-- Devicon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
-    <link id="styleTheme" rel="stylesheet" href="css/light.css">
+    <!-- <link id="theme-css" rel="stylesheet" href="css/light.css"> -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,12 +26,20 @@
             <a href="#about">About</a>
             <a href="#project">Project</a>
             <a href="#social">Social</a>
+            <!-- <a href="#blog">Blog</a> -->
             <a href="#contact">Contact</a>
         </div>
 
         <div class="navbar-extra">
-            <a href="#" id="theme" class="light active"><i data-feather="sun"></i></a>
-            <a href="#" id="theme" class="dark"><i data-feather="moon"></i></a>
+            <!-- <a href="#" id="theme"><i data-feather="sun"></i></a>
+            <a href="#" id="theme"><i data-feather="moon"></i></a> -->
+            <a href="#" id="theme-toggle">
+                <!-- Sun Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+
+                <!-- Moon Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </a>
             <a href="#" id="menu"><i data-feather="menu"></i></a>
         </div>
     </nav>
@@ -77,8 +85,8 @@
                 <i class="devicon-git-plain"></i>
                 <i class="devicon-androidstudio-plain"></i>
                 <i class="devicon-vscode-plain"></i>
-                <i class="devicon-intellij-plain"></i>
-                <i class="devicon-godot-plain"></i>
+                <!-- <i class="devicon-intellij-plain"></i> -->
+                <!-- <i class="devicon-godot-plain"></i> -->
                 <!-- E:Skill Icons -->
             </div>
         </div>
@@ -89,9 +97,9 @@
     <section id="about" class="about">
         <h1>About</h1>
         <p>
-            <span id="greeting" title="UTC+7"></span> Hajimemashite, nama saya Nizar desu.
-            Awalnya cuma suka browsing website, sekarang bisa bikin website sendiri.
-            Sekarang lagi mau coba jadi GameDev. Yoroshiku!
+            <span id="greeting" title="UTC+7"></span> Hajimemashite, nama saya Nizar (izar).
+            Berawal dari browsing-browsing website, sekarang bisa bikin website sendiri.
+            Yoroshiku!
         </p>
 
         <br>
@@ -102,8 +110,8 @@
 
     <!-- S:Project Section -->
     <section id="project" class="project">
-        <h1>Project List</h1>
-        <p>Project-project saya sejauh ini</p>
+        <h1>Project</h1>
+        <p>Top project</p>
 
         <div class="row">
             <div class="card" onclick="redirectTo('#')">
@@ -117,94 +125,6 @@
                     <p>Terinspirasi dari Facebook. Aplikasi ini saya buat ketika ada waktu luang (pas lagi PKL, waktu masih pemula, belum pake md5 njir).</p>
                 </div>
             </div>
-            <div class="card" onclick="redirectTo('#')">
-                <div class="card-img">
-                    <a href="#"><img src="img/projects/app-rentalmobil.png" alt="Rental Mobil"></a>
-                </div>
-                <div class="card-title">
-                    <h2><a href="#">Rental Mobil</a></h2>
-                </div>
-                <div class="card-description">
-                    <p>Web App Rental Mobil adalah project UKK (PSKK/Ujian Kompetensi) waktu kelas 3 SMK.</p>
-                </div>
-            </div>
-            <div class="card" onclick="redirectTo('#')">
-                <div class="card-img">
-                    <a href="#"><img src="img/projects/garupa-clone.png" alt="Garupa Clone"></a>
-                </div>
-                <div class="card-title">
-                    <h2><a href="#">Garupa Clone</a></h2>
-                </div>
-                <div class="card-description">
-                    <p>Game rhythm seperti BanG Dream! yang saya buat untuk persiapan LKS Tingkat Kabupaten.</p>
-                </div>
-            </div>
-            <div class="card" onclick="redirectTo('#')">
-                <div class="card-img">
-                    <a href="#"><img src="img/projects/virus-slayer.png" alt="Virus Slayer"></a>
-                </div>
-                <div class="card-title">
-                    <h2><a href="#">Virus Slayer</a></h2>
-                </div>
-                <div class="card-description">
-                    <p>Game rhythm yang saya buat (berdasarkan soal LKS Provinsi tahun lalu) untuk persiapan LKS Tingkat Kabupaten, tapi ternyata yang dilombakan temanya mobil balap.</p>
-                </div>
-            </div>
-            <div class="card" onclick="redirectTo('#')">
-                <div class="card-img">
-                    <a href="#"><img src="img/projects/racing-game.png" alt="Racing Game"></a>
-                </div>
-                <div class="card-title">
-                    <h2><a href="#">Racing Game</a></h2>
-                </div>
-                <div class="card-description">
-                    <p>Game mobil balap yang saya buat untuk persiapan LKS Tingkat Kabupaten.</p>
-                </div>
-            </div>
-            <div class="card" onclick="redirectTo('#')">
-                <div class="card-img">
-                    <a href="#"><img src="img/projects/layout-tokobuku.png" alt="Layout Toko Buku"></a>
-                </div>
-                <div class="card-title">
-                    <h2><a href="#">Layout Toko Buku</a></h2>
-                </div>
-                <div class="card-description">
-                    <p>Project gabut membuat layout toko buku menggunakan Bootstrap 5.</p>
-                </div>
-            </div>
-            <div class="card" onclick="redirectTo('#')">
-                <div class="card-img">
-                    <a href="#"><img src="img/projects/classic-snake.png" alt="Classic Snake"></a>
-                </div>
-                <div class="card-title">
-                    <h2><a href="#">Classic Snake</a></h2>
-                </div>
-                <div class="card-description">
-                    <p>Game snake jadul yang saya buat untuk persiapan LKS Tingkat Provinsi.</p>
-                </div>
-            </div>
-            <div class="card" onclick="redirectTo('#')">
-                <div class="card-img">
-                    <a href="#"><img src="img/projects/kedai-kopi.png" alt="Kedai Kopi"></a>
-                </div>
-                <div class="card-title">
-                    <h2><a href="#">Kedai Kopi</a></h2>
-                </div>
-                <div class="card-description">
-                    <p>Layout Kedai Kopi yang saya buat dengan mengikuti tutorial ngobar WPU.</p>
-                </div>
-            </div>
-            <div class="card" onclick="redirectTo('#')">
-                <div class="card-img">
-                    <a href="#"><img src="img/projects/izardaffa.github.io.png" alt="Personal Page"></a>
-                </div>
-                <div class="card-title">
-                    <h2><a href="#">Personal Page</a></h2>
-                </div>
-                <div class="card-description">
-                    <p>Personal Page yang dibuat menggunakan vanilla HTML, CSS, dan JS.</p>
-                </div>
-            </div>
         </div>
     </section>
     <!-- E:Project Section -->
@@ -214,7 +134,7 @@
         <h1>Social</h1>
         <p>Find me on Twitter</p>
 
-        <a class="twitter-timeline" href="https://twitter.com/izardaffa?ref_src=twsrc%5Etfw">Tweets by izardaffa</a>
+        <a class="twitter-timeline" href="https://twitter.com/izardaffa?ref_src=twsrc%5Etfw">Tweets by izardaffa</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
     </section>
     <!-- E:Social Section -->
 
@@ -252,9 +172,6 @@
     <script>
         feather.replace()
     </script>
-
-    <!-- Twitter Embed -->
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
     <script src="js/script.js"></script>
 </body>
