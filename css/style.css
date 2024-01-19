@@ -1,9 +1,11 @@
 :root {
-    --bg: linear-gradient(to bottom right, #7eee7e, #00ffff);
+    --bg: linear-gradient(to bottom right, #ff0000, #0000ff);
     --primary: #f8fafc;
     --secondary: #696969;
-    --tertiary: #7eee7e;
-    --quaternary: #00ffff;
+    /* --tertiary: #7eee7e;
+    --quaternary: #00ffff; */
+    --tertiary: #ff0000;
+    --quaternary: #0000ff;
     --shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     --corner: 0.375rem;
 }
