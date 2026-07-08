@@ -43,7 +43,7 @@ languages:
     params:
       hero:
         intro: "Halo, nama saya"
-        title: "Isabella."
+        title: "izardaffa."
         subtitle: "Saya membangun hal-hal untuk web"
         content: "Seorang pengembang aplikasi web yang penuh semangat. Saya terbiasa menggunakan teknologi web modern untuk membangun situs web yang terlihat bagus, terasa fantastis, dan berfungsi dengan baik."
         button:
@@ -249,7 +249,7 @@ languages:
     params:
       hero:
         intro: "こんにちは、私の名前は"
-        title: "Isabella."
+        title: "izardaffa."
         subtitle: "ウェブ制作を行っています"
         content: "情熱的なウェブアプリ開発者です。見栄えが良く、使い心地が素晴らしく、正しく機能するウェブサイトを構築するために、モダンなウェブ技術を活用しています。"
         button:
@@ -563,10 +563,10 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    title: "izardaffa."
+    subtitle: "Engineering digital solutions"
+    content: "A web developer who enjoys building modern web applications. When I'm not coding, you'll probably find me watching anime, listening to anisongs, or working on another side project."
+    image: /images/hero.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -579,12 +579,14 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/izardaffa
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/izardaffa/
+        - icon: fab fa-discord
+          url: https://discordapp.com/users/1071919396949336105
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   # About
   about:
