@@ -24,79 +24,79 @@ languages:
           title: Image gallery
           url: /gallery
           weight: 2
-  es:
-    label: "Español"
+  id:
+    label: "Bahasa Indonesia"
     weight: 2
-    contentDir: "content/es"
+    contentDir: "content/id"
     menu:
       main:
         - identifier: blog
           name: Blog
-          title: Publicaciones del blog
-          url: /es/blogs
+          title: Postingan blog
+          url: /id/blogs
           weight: 1
         - identifier: gallery
-          name: Galería
-          title: Galería de imágenes
-          url: /es/gallery
+          name: Galeri
+          title: Galeri foto
+          url: /id/gallery
           weight: 2
     params:
       hero:
-        intro: "Hola, mi nombre es"
+        intro: "Halo, nama saya"
         title: "Isabella."
-        subtitle: "Construyo cosas para la web"
-        content: "Una desarrolladora apasionada de aplicaciones web. Tiendo a hacer uso de tecnologías web modernas para construir sitios web que se ven geniales, se sienten fantásticos y funcionan correctamente."
+        subtitle: "Saya membangun hal-hal untuk web"
+        content: "Seorang pengembang aplikasi web yang penuh semangat. Saya terbiasa menggunakan teknologi web modern untuk membangun situs web yang terlihat bagus, terasa fantastis, dan berfungsi dengan baik."
         button:
-          name: "Currículum"
+          name: "Resume"
       about:
-        title: "Sobre Mí"
+        title: "Tentang Saya"
         content: |-
-          Soy una desarrolladora de software con pasión por el desarrollo web. Tengo experiencia en ciencias de la computación y matemáticas, y tengo un fuerte interés en la intersección de la tecnología y el arte. Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA.
+          Saya adalah pengembang perangkat lunak dengan hasrat untuk pengembangan web. Saya memiliki latar belakang dalam ilmu komputer dan matematika, dan memiliki minat kuat pada persimpangan antara teknologi dan seni. Saat ini saya bekerja sebagai pengembang perangkat lunak di [organisasi contoh](https://example.com) di San Francisco, CA.
 
-          Actualmente estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad.
+          Saat ini saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk bepergian di sekitar kota.
         skills:
-          title: "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:"
+          title: "Berikut adalah beberapa teknologi yang sedang saya kerjakan akhir-akhir ini:"
       experience:
         items:
           - company: "Facebook"
             companyUrl: "https://example.com"
             jobs:
-              - name: "Desarrolladora Senior de Software"
-                date: "Ene 2023 - presente"
-                content: "Actualmente trabajo como desarrolladora senior de software en [ejemplo org.](https://example.com) en San Francisco, CA. Estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad."
+              - name: "Pengembang Perangkat Lunak Senior"
+                date: "Jan 2023 - sekarang"
+                content: "Saat ini saya bekerja sebagai pengembang perangkat lunak senior di [organisasi contoh](https://example.com) di San Francisco, CA. Saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota."
                 info:
-                  content: Trabajando como desarrolladora senior de software
+                  content: Bekerja sebagai pengembang perangkat lunak senior
                 featuredItems:
                   fontAwesomeIcons:
                     - icon: fa-brands fa-react
                       url: https://react.dev/
-                      tooltip: Contenido de ejemplo de tooltip
+                      tooltip: Contoh konten tooltip
                     - icon: fab fa-x-twitter
                       url: https://example.com
                   customIcons:
                     - icon: /fav.png
                       url: "https://example.com"
-                      tooltip: Contenido de ejemplo de tooltip
-              - name: "Desarrolladora de Software"
-                date: "Ene 2022 - Dic 2023"
-                content: "Trabajé como desarrolladora de software. Trabajé en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad."
+                      tooltip: Contoh konten tooltip
+              - name: "Pengembang Perangkat Lunak"
+                date: "Jan 2022 - Des 2023"
+                content: "Saya bekerja sebagai pengembang perangkat lunak. Saya mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota."
           - company: "Amazon"
             companyUrl: "https://example.com"
             jobs:
-              - name: "Desarrolladora de Software"
-                date: "Sep 2020 - Dic 2021"
+              - name: "Pengembang Perangkat Lunak"
+                date: "Sep 2020 - Des 2021"
                 info:
-                  content: Trabajé como desarrolladora de software durante más de un año en Amazon.
+                  content: Saya bekerja sebagai pengembang perangkat lunak selama lebih dari satu tahun di Amazon.
                 content: |
-                  Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA. Estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad.
+                  Saat ini saya bekerja sebagai pengembang perangkat lunak di [organisasi contoh](https://example.com) di San Francisco, CA. Saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota.
 
-                  - Desarrolladora backend principal de un producto.
-                  - Creé un diseño frontend para un producto.
+                  - Pengembang backend utama untuk sebuah produk.
+                  - Membuat desain frontend untuk sebuah produk.
           - company: "Apple"
             companyUrl: "https://example.com"
             jobs:
-              - name: "Desarrolladora Junior de Software"
-                date: "Ene 2020 - Ago 2020"
+              - name: "Pengembang Perangkat Lunak Junior"
+                date: "Jan 2020 - Agu 2020"
                 featuredItems:
                   fontAwesomeIcons:
                     - icon: fa-brands fa-react
@@ -107,68 +107,68 @@ languages:
                     - icon: /fav.png
                       url: "https://example.com"
                 content: |
-                  Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA. Estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad.
+                  Saat ini saya bekerja sebagai pengembang perangkat lunak di [organisasi contoh](https://example.com) di San Francisco, CA. Saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota.
 
-                  - Desarrolladora backend principal de un producto.
-                  - Creé un diseño frontend para un producto.
+                  - Pengembang backend utama untuk sebuah produk.
+                  - Membuat desain frontend untuk sebuah produk.
           - company: "Netflix"
             companyUrl: "https://example.com"
             jobs:
-              - name: "Diseñadora UI/UX"
-                date: "Junio 2017 - Nov 2019"
+              - name: "Perancang UI/UX"
+                date: "Juni 2017 - Nov 2019"
                 content: |
-                  Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA. Estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad.
+                  Saat ini saya bekerja sebagai pengembang perangkat lunak di [organisasi contoh](https://example.com) di San Francisco, CA. Saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota.
 
-                  - Desarrolladora backend principal de un producto.
-                  - Creé un diseño frontend para un producto.
+                  - Pengembang backend utama untuk sebuah produk.
+                  - Membuat desain frontend untuk sebuah produk.
           - company: "Google"
             companyUrl: "https://example.com"
             jobs:
-              - name: "Diseñadora de Productos"
+              - name: "Perancang Produk"
                 date: "Feb 2016 - Mar 2017"
-                content: "Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA. Estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad."
+                content: "Saat ini saya bekerja sebagai pengembang perangkat lunak di [organisasi contoh](https://example.com) di San Francisco, CA. Saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota."
       education:
         items:
-          - title: "Maestría en Administración de Empresas"
+          - title: "Magister Administrasi Bisnis"
             school:
-              name: "Universidad de California, Berkeley"
+              name: "Universitas California, Berkeley"
               url: "https://example.org"
             date: "2013 - 2015"
-            GPA: "3.8 de 5.0"
+            GPA: "3.8 dari 5.0"
             content: |-
-              Actividades Extracurriculares
-                - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Kegiatan Ekstrakurikuler
+                - Lorem ipsum dolor sit amet  consectetur adipisicing elit.
                 - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-          - title: "Licenciatura en Ciencias de la Computación"
+          - title: "Sarjana Ilmu Komputer"
             school:
-              name: "Instituto Tecnológico de Massachusetts"
+              name: "Institut Teknologi Massachusetts"
               url: "https://example.org"
             date: "2009 - 2013"
-            GPA: "3.9 de 5.0"
+            GPA: "3.9 dari 5.0"
             content: |-
-              Publiqué dos artículos en la Conferencia ACM SIGCHI sobre Inteligencia Artificial.
-              - [Detección de Objetos Rápida y Precisa con una Red Neuronal Convolucional](https://example.com)
-              - Detección de mascarillas faciales usando una red neuronal convolucional.
+              Mempublikasikan dua makalah di Konferensi ACM SIGCHI tentang Kecerdasan Buatan.
+              - [Deteksi Objek Cepat dan Akurat dengan Convolutional Neural Network](https://example.com)
+              - Deteksi masker wajah menggunakan convolutional neural network.
 
-              Actividades Extracurriculares
-                - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Kegiatan Ekstrakurikuler
+                - Lorem ipsum dolor sit amet  consectetur adipisicing elit.
                 - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
             featuredLink:
               enable: true
-              name: "Mi expediente académico"
+              name: "Transkrip Akademik Saya"
               url: "https://example.com"
-          - title: "Escuela Secundaria"
+          - title: "Sekolah Menengah Atas"
             school:
-              name: "Escuela Secundaria Thomas Jefferson para Ciencia y Tecnología."
+              name: "SMA Thomas Jefferson untuk Sains dan Teknologi."
               url: "https://example.org"
-            GPA: "4.2 de 5.0"
+            GPA: "4.2 dari 5.0"
             featuredLink:
               enable: true
               url: "https://example.com"
       projects:
         items:
           - title: Hugo Profile
-            content: Una plantilla Hugo altamente personalizable y centrada en dispositivos móviles para portafolio personal y blog.
+            content: Sebuah templat Hugo yang sangat dapat disesuaikan dan berfokus pada seluler untuk portofolio pribadi dan blog.
             image: /images/projects/profile.png
             featured:
               name: Demo
@@ -179,13 +179,13 @@ languages:
               - "Javascript"
             links:
               - icon: fa fa-envelope
-                url: mailto:?subject=Plantilla%20Hugo%20Profile&body=Échale%20un%20vistazo:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+                url: mailto:?subject=Templat%20Hugo%20Profile&body=Lihat%20ini:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
               - icon: fab fa-github
                 url: https://github.com/gurusabarish/hugo-profile
               - icon: fab fa-twitter
-                url: https://twitter.com/intent/tweet?text=Échale+un+vistazo:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-          - title: Conversor de Imágenes
-            content: Una aplicación web para convertir imágenes a pdf, png a jpg, png a jpg y png a webp sin base de datos usando django.
+                url: https://twitter.com/intent/tweet?text=Lihat+ini:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - title: Konverter Gambar
+            content: Sebuah aplikasi web untuk mengonversi gambar ke pdf, png ke jpg, png ke jpg dan png ke webp tanpa database menggunakan django.
             image: /images/projects/converter.jpg
             featured:
               name: Demo
@@ -197,7 +197,7 @@ languages:
               - icon: fab fa-github
                 url: https://github.com/gurusabarish/converter
           - title: Hugo Profile V2
-            content: Una plantilla Hugo limpia y simple para portafolio personal y blog.
+            content: Sebuah templat Hugo yang bersih dan sederhana untuk portofolio pribadi dan blog.
             image: /images/projects/profile2.jpg
             featured:
               name: Demo V2
@@ -211,98 +211,98 @@ languages:
                 url: https://github.com/gurusabarish/HugoProfileV2
       achievements:
         items:
-          - title: Finalista de Google Kickstart
-            content: Resolví todos los problemas con solución óptima.
+          - title: Finalis Google Kickstart
+            content: Menyelesaikan semua masalah dengan solusi optimal.
             url: https://example.com
             image: /images/achievement.jpg
-          - title: Ganador del Hackathon de Facebook
-            content: Desarrollé un producto usando Inteligencia Artificial.
+          - title: Pemenang Hackathon Facebook
+            content: Mengembangkan produk menggunakan Kecerdasan Buatan.
             image: /images/achievement.jpg
           - title: Hugo Profile
-            content: Desarrollé un tema y obtuve más de 1K descargas por mes.
+            content: Mengembangkan tema dan mencapai lebih dari 1.000 unduhan per bulan.
             url: "https://github.com/gurusabarish/hugo-profile"
             image: /images/achievement.jpg
-          - title: Finalista de Microsoft Imagine
-            content: Desarrollamos un producto que puede ayudar a otros.
+          - title: Finalis Microsoft Imagine
+            content: Mengembangkan produk yang dapat membantu orang lain.
           - title: Google Summer of Code
-            content: Contribuí a un proyecto de código abierto.
+            content: Berkontribusi pada proyek sumber terbuka.
             url: https://example.com
       contact:
-        content: Mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta o simplemente quieras saludar, ¡haré todo lo posible para responderte!
-        btnName: Escríbeme
-  fr:
-    contentDir: "content/fr"
-    label: "Français"
+        content: Kotak masuk saya selalu terbuka. Baik Anda memiliki pertanyaan atau hanya ingin menyapa, saya akan melakukan yang terbaik untuk membalas Anda!
+        btnName: Hubungi Saya
+  ja:
+    contentDir: "content/ja"
+    label: "日本語"
     weight: 3
     menu:
       main:
         - identifier: blog
-          name: Blog
-          title: Articles de blog
-          url: /fr/blogs
+          name: ブログ
+          title: ブログ記事
+          url: /ja/blogs
           weight: 1
         - identifier: gallery
-          name: Galerie
-          title: Galerie d'images
-          url: /fr/gallery
+          name: ギャラリー
+          title: 画像ギャラリー
+          url: /ja/gallery
           weight: 2
     params:
       hero:
-        intro: "Bonjour, je m'appelle"
+        intro: "こんにちは、私の名前は"
         title: "Isabella."
-        subtitle: "Je construis des choses pour le web"
-        content: "Une développeuse passionnée d'applications web. J'ai tendance à utiliser des technologies web modernes pour créer des sites web qui ont fière allure, qui sont agréables et qui fonctionnent correctement."
+        subtitle: "ウェブ制作を行っています"
+        content: "情熱的なウェブアプリ開発者です。見栄えが良く、使い心地が素晴らしく、正しく機能するウェブサイトを構築するために、モダンなウェブ技術を活用しています。"
         button:
-          name: "CV"
+          name: "履歴書"
       about:
-        title: "À Propos de Moi"
+        title: "自己紹介"
         content: |-
-          Je suis une développeuse de logiciels passionnée par le développement web. J'ai une formation en informatique et en mathématiques, et je m'intéresse vivement à l'intersection de la technologie et de l'art. Je travaille actuellement comme développeuse de logiciels chez [exemple org.](https://example.com) à San Francisco, CA.
+          ウェブ開発に情熱を持つソフトウェア開発者です。コンピュータサイエンスと数学のバックグラウンドがあり、テクノロジーとアートの交差点に強い関心を持っています。現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でソフトウェア開発者として働いています。
 
-          Je travaille actuellement sur un projet qui sera utilisé pour aider les gens à trouver le meilleur moyen de se déplacer dans la ville.
+          現在は、人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。
         skills:
-          title: "Voici quelques technologies avec lesquelles j'ai travaillé récemment:"
+          title: "最近主に使用している技術は以下の通りです："
       experience:
         items:
           - company: "Facebook"
             companyUrl: "https://example.com"
             jobs:
-              - name: "Développeuse Senior de Logiciels"
-                date: "Jan 2023 - présent"
-                content: "Je travaille actuellement comme développeuse senior de logiciels chez [exemple org.](https://example.com) à San Francisco, CA. Je travaille sur un projet qui sera utilisé pour aider les gens à trouver le meilleur moyen de se déplacer dans la ville."
+              - name: "シニアソフトウェア開発者"
+                date: "2023年1月 - 現在"
+                content: "現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でシニアソフトウェア開発者として働いています。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。"
                 info:
-                  content: Travaille comme développeuse senior de logiciels
+                  content: シニアソフトウェア開発者として勤務
                 featuredItems:
                   fontAwesomeIcons:
                     - icon: fa-brands fa-react
                       url: https://react.dev/
-                      tooltip: Exemple de contenu d'info-bulle
+                      tooltip: ツールチップの表示例
                     - icon: fab fa-x-twitter
                       url: https://example.com
                   customIcons:
                     - icon: /fav.png
                       url: "https://example.com"
-                      tooltip: Exemple de contenu d'info-bulle
-              - name: "Développeuse de Logiciels"
-                date: "Jan 2022 - Déc 2023"
-                content: "J'ai travaillé comme développeuse de logiciels. J'ai travaillé sur un projet qui sera utilisé pour aider les gens à trouver le meilleur moyen de se déplacer dans la ville."
+                      tooltip: ツールチップの表示例
+              - name: "ソフトウェア開発者"
+                date: "2022年1月 - 2023年12月"
+                content: "ソフトウェア開発者として勤務していました。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいました。"
           - company: "Amazon"
             companyUrl: "https://example.com"
             jobs:
-              - name: "Développeuse de Logiciels"
-                date: "Sep 2020 - Déc 2021"
+              - name: "ソフトウェア開発者"
+                date: "2020年9月 - 2021年12月"
                 info:
-                  content: J'ai travaillé comme développeuse de logiciels pendant plus d'un an chez Amazon.
+                  content: Amazonのソフトウェア開発者として1年以上勤務していました。
                 content: |
-                  Je travaille actuellement comme développeuse de logiciels chez [exemple org.](https://example.com) à San Francisco, CA. Je travaille sur un projet qui sera utilisé pour aider les gens à trouver le meilleur moyen de se déplacer dans la ville.
+                  現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でソフトウェア開発者として働いています。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。
 
-                  - Développeuse backend principale pour un produit.
-                  - J'ai créé un design frontend pour un produit.
+                  - 製品のメインバックエンド開発者。
+                  - 製品のフロントエンドデザインを作成。
           - company: "Apple"
             companyUrl: "https://example.com"
             jobs:
-              - name: "Développeuse Junior de Logiciels"
-                date: "Jan 2020 - Août 2020"
+              - name: "ジュニアソフトウェア開発者"
+                date: "2020年1月 - 2020年8月"
                 featuredItems:
                   fontAwesomeIcons:
                     - icon: fa-brands fa-react
@@ -313,71 +313,71 @@ languages:
                     - icon: /fav.png
                       url: "https://example.com"
                 content: |
-                  Je travaille actuellement comme développeuse de logiciels chez [exemple org.](https://example.com) à San Francisco, CA. Je travaille sur un projet qui sera utilisé pour aider les gens à trouver le meilleur moyen de se déplacer dans la ville.
+                  現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でソフトウェア開発者として働いています。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。
 
-                  - Développeuse backend principale pour un produit.
-                  - J'ai créé un design frontend pour un produit.
+                  - 製品のメインバックエンド開発者。
+                  - 製品のフロントエンドデザインを作成。
           - company: "Netflix"
             companyUrl: "https://example.com"
             jobs:
-              - name: "Designer UI/UX"
-                date: "Juin 2017 - Nov 2019"
+              - name: "UI/UXデザイナー"
+                date: "2017年6月 - 2019年11月"
                 content: |
-                  Je travaille actuellement comme développeuse de logiciels chez [exemple org.](https://example.com) à San Francisco, CA. Je travaille sur un projet qui sera utilisé pour aider les gens à trouver le meilleur moyen de se déplacer dans la ville.
+                  現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でソフトウェア開発者として働いています。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。
 
-                  - Développeuse backend principale pour un produit.
-                  - J'ai créé un design frontend pour un produit.
+                  - 製品のメインバックエンド開発者。
+                  - 製品のフロントエンドデザインを作成。
           - company: "Google"
             companyUrl: "https://example.com"
             jobs:
-              - name: "Designer de Produits"
-                date: "Fév 2016 - Mar 2017"
-                content: "Je travaille actuellement comme développeuse de logiciels chez [exemple org.](https://example.com) à San Francisco, CA. Je travaille sur un projet qui sera utilisé pour aider les gens à trouver le meilleur moyen de se déplacer dans la ville."
+              - name: "プロダクトデザイナー"
+                date: "2016年2月 - 2017年3月"
+                content: "現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でソフトウェア開発者として働いています。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。"
       education:
         items:
-          - title: "Master en Administration des Affaires"
+          - title: "経営学修士 (MBA)"
             school:
-              name: "Université de Californie, Berkeley"
+              name: "カリフォルニア大学バークレー校"
               url: "https://example.org"
             date: "2013 - 2015"
-            GPA: "3.8 sur 5.0"
+            GPA: "GPA: 3.8 / 5.0"
             content: |-
-              Activités Extrascolaires
-                - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              課外活動
+                - Lorem ipsum dolor sit amet  consectetur adipisicing elit.
                 - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-          - title: "Licence en Sciences Informatiques"
+          - title: "理学士（コンピュータサイエンス）"
             school:
-              name: "Institut de Technologie du Massachusetts"
+              name: "マサチューセッツ工科大学"
               url: "https://example.org"
             date: "2009 - 2013"
-            GPA: "3.9 sur 5.0"
+            GPA: "GPA: 3.9 / 5.0"
             content: |-
-              J'ai publié deux articles lors de la Conférence ACM SIGCHI sur l'Intelligence Artificielle.
-              - [Détection d'Objets Rapide et Précise avec un Réseau de Neurones Convolutifs](https://example.com)
-              - Détection de masques faciaux à l'aide d'un réseau de neurones convolutifs.
+              人工知能に関するACM SIGCHIカンファレンスで2本の論文を発表しました。
+              - [畳み込みニューラルネットワークを用いた高速かつ高精度な物体検出](https://example.com)
+              - 畳み込みニューラルネットワークを用いた顔マスク検出。
 
-              Activités Extrascolaires
-                - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              課外活動
+                - Lorem ipsum dolor sit amet  consectetur adipisicing elit.
                 - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
             featuredLink:
               enable: true
-              name: "Mon dossier académique"
+              name: "学術成績証明書"
               url: "https://example.com"
-          - title: "Lycée"
+          - title: "高校"
             school:
-              name: "Lycée Thomas Jefferson pour les Sciences et la Technologie."
+              name: "トーマス・ジェファーソン科学技術高校"
               url: "https://example.org"
-            GPA: "4.2 sur 5.0"
+            GPA: "GPA: 4.2 / 5.0"
             featuredLink:
               enable: true
               url: "https://example.com"
       projects:
         items:
           - title: Hugo Profile
-            content: Un modèle Hugo hautement personnalisable et axé sur le mobile pour portfolio personnel et blog.
+            content: 個人ポートフォリオとブログ向けの、高度にカスタマイズ可能でモバイルフレンドリーなHugoテンプレート。
             image: /images/projects/profile.png
             featured:
-              name: Démo
+              name: デモ
               link: https://hugo-profile.netlify.app
             badges:
               - "Hugo"
@@ -385,16 +385,16 @@ languages:
               - "Javascript"
             links:
               - icon: fa fa-envelope
-                url: mailto:?subject=Modèle%20Hugo%20Profile&body=Découvrez-le:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+                url: mailto:?subject=Hugo%20Profile%20テンプレート&body=チェックアウト:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
               - icon: fab fa-github
                 url: https://github.com/gurusabarish/hugo-profile
               - icon: fab fa-twitter
-                url: https://twitter.com/intent/tweet?text=Découvrez-le:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-          - title: Convertisseur d'Images
-            content: Une application web pour convertir des images en pdf, png en jpg, png en jpg et png en webp sans base de données en utilisant django.
+                url: https://twitter.com/intent/tweet?text=チェックアウト:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - title: 画像コンバーター
+            content: Djangoを使用してデータベースなしで画像をpdf、pngからjpg、pngからjpg、pngからwebpに変換するウェブアプリケーション。
             image: /images/projects/converter.jpg
             featured:
-              name: Démo
+              name: デモ
               link: https://django-converter.herokuapp.com
             badges:
               - "Django"
@@ -403,10 +403,10 @@ languages:
               - icon: fab fa-github
                 url: https://github.com/gurusabarish/converter
           - title: Hugo Profile V2
-            content: Un modèle Hugo propre et simple pour portfolio personnel et blog.
+            content: 個人ポートフォリオとブログ向けのクリーンでシンプルなHugoテンプレート。
             image: /images/projects/profile2.jpg
             featured:
-              name: Démo V2
+              name: デモ V2
               link: https://hugo-profile-2.netlify.app
             badges:
               - "Hugo"
@@ -417,25 +417,25 @@ languages:
                 url: https://github.com/gurusabarish/HugoProfileV2
       achievements:
         items:
-          - title: Finaliste Google Kickstart
-            content: J'ai résolu tous les problèmes avec une solution optimale.
+          - title: Google Kickstart ファイナリスト
+            content: すべての問題を最適な解法で解決しました。
             url: https://example.com
             image: /images/achievement.jpg
-          - title: Gagnant du Hackathon Facebook
-            content: J'ai développé un produit utilisant l'Intelligence Artificielle.
+          - title: Facebook ハッカソン勝者
+            content: 人工知能を用いた製品を開発しました。
             image: /images/achievement.jpg
           - title: Hugo Profile
-            content: J'ai développé un thème et j'obtiens plus de 1K téléchargements par mois.
+            content: テーマを開発し、月間1,000回以上のダウンロード数を達成。
             url: "https://github.com/gurusabarish/hugo-profile"
             image: /images/achievement.jpg
-          - title: Finaliste Microsoft Imagine
-            content: Nous avons développé un produit qui peut aider les autres.
+          - title: Microsoft Imagine ファイナリスト
+            content: 他者を支援できる製品を開発しました。
           - title: Google Summer of Code
-            content: J'ai contribué à un projet open source.
+            content: オープンソースプロジェクトに貢献しました。
             url: https://example.com
       contact:
-        content: Ma boîte de réception est toujours ouverte. Que vous ayez une question ou que vous vouliez simplement dire bonjour, je ferai de mon mieux pour vous répondre!
-        btnName: Écrivez-moi
+        content: お気軽にメッセージをお送りください。質問がある場合でも、挨拶だけでも大歓迎です！できる限り早くお返事いたします。
+        btnName: メッセージを送る
 
 outputs:
   home:
