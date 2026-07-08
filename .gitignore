@@ -1,0 +1,12 @@
+# Hugo build output directory
+/public/
+
+# Hugo resources directory (cache of processed assets like images/CSS)
+/resources/_gen/
+.hugo_build.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
