@@ -42,198 +42,227 @@ languages:
           weight: 2
     params:
       hero:
+        enable: true
         intro: "Halo, nama saya"
         title: "izardaffa."
-        subtitle: "Saya membangun hal-hal untuk web"
-        content: "Seorang pengembang aplikasi web yang penuh semangat. Saya terbiasa menggunakan teknologi web modern untuk membangun situs web yang terlihat bagus, terasa fantastis, dan berfungsi dengan baik."
+        subtitle: "Merekayasa solusi digital"
+        content: "Seorang pengembang web yang senang membangun aplikasi web modern. Saat saya tidak sedang coding, Anda mungkin akan menemukan saya menonton anime, mendengarkan lagu anime (anisong), atau mengerjakan proyek sampingan lainnya."
+        image: /images/hero.png
         button:
+          enable: true
           name: "Resume"
       about:
+        enable: true
         title: "Tentang Saya"
+        image: "/images/me.jpg"
         content: |-
-          Saya adalah pengembang perangkat lunak dengan hasrat untuk pengembangan web. Saya memiliki latar belakang dalam ilmu komputer dan matematika, dan memiliki minat kuat pada persimpangan antara teknologi dan seni. Saat ini saya bekerja sebagai pengembang perangkat lunak di [organisasi contoh](https://example.com) di San Francisco, CA.
+          Halo! Saya Nizar, mahasiswa Rekayasa Perangkat Lunak di [Telkom University](https://telkomuniversity.ac.id/) yang memiliki hasrat tinggi dalam membangun aplikasi web. Perjalanan saya di dunia pengembangan perangkat lunak dimulai sejak sekolah menengah kejuruan (SMK), dan sejak itu saya sangat menikmati mengubah ide menjadi produk nyata melalui kode.
 
-          Saat ini saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk bepergian di sekitar kota.
+          Saat ini saya berkontribusi di [SafeNest Indonesia](https://www.linkedin.com/company/safenestid/), membantu mengembangkan platform konservasi burung, sembari juga mengerjakan proyek akademik dan lepas (freelance). Saya senang menjelajahi teknologi baru, memecahkan masalah, dan terus meningkatkan cara saya membangun perangkat lunak.
         skills:
+          enable: true
           title: "Berikut adalah beberapa teknologi yang sedang saya kerjakan akhir-akhir ini:"
       experience:
+        enable: true
         items:
-          - company: "Facebook"
-            companyUrl: "https://example.com"
+          - company: "Freelance"
+            companyUrl: "#"
             jobs:
-              - name: "Pengembang Perangkat Lunak Senior"
-                date: "Jan 2023 - sekarang"
-                content: "Saat ini saya bekerja sebagai pengembang perangkat lunak senior di [organisasi contoh](https://example.com) di San Francisco, CA. Saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota."
-                info:
-                  content: Bekerja sebagai pengembang perangkat lunak senior
+              - name: "Pengembang Web Freelance"
+                date: "2023 - Sekarang"
+                content: |
+                  Bekerja dengan klien untuk membangun situs web dan aplikasi web, menangani pengembangan frontend, backend, dan full-stack. Menyelesaikan proyek mulai dari profil perusahaan hingga sistem manajemen menggunakan teknologi web modern seperti React, Express.js, Laravel, dan MySQL.
+
+                  Klien Terpilih
+                  - SafeNest Indonesia
+                  - Museum Gerabah Kebumen
+                  - LadangGo
+                  - Sistem Inspeksi Nusakura
+          - company: "Nocola IoT Solution"
+            companyUrl: "https://nocola.co.id/"
+            jobs:
+              - name: "Magang Pengembang Perangkat Lunak (Paruh Waktu)"
+                date: "Des 2024 - 2025"
+                content: |
+                  Berkontribusi pada pengembangan dan pemeliharaan aplikasi web berbasis React yang sudah ada. Mengimplementasikan fitur baru, memperbaiki bug, dan berkolaborasi dengan tim pengembang untuk meningkatkan fungsionalitas dan pengalaman pengguna aplikasi.
+
+                  - Mengembangkan dan memelihara aplikasi web berbasis React
+                  - Mengimplementasikan fitur baru dan memperbaiki masalah yang ada
+                  - Berkolaborasi dengan tim pengembang
                 featuredItems:
                   fontAwesomeIcons:
-                    - icon: fa-brands fa-react
-                      url: https://react.dev/
-                      tooltip: Contoh konten tooltip
+                    - icon: fab fa-linkedin
+                      url: https://www.linkedin.com/company/nocola-iot-solution/
+                    - icon: fab fa-instagram
+                      url: https://www.instagram.com/nocola_id/
+                    - icon: fab fa-facebook
+                      url: https://www.facebook.com/nocola.co.id
                     - icon: fab fa-x-twitter
-                      url: https://example.com
-                  customIcons:
-                    - icon: /fav.png
-                      url: "https://example.com"
-                      tooltip: Contoh konten tooltip
-              - name: "Pengembang Perangkat Lunak"
-                date: "Jan 2022 - Des 2023"
-                content: "Saya bekerja sebagai pengembang perangkat lunak. Saya mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota."
-          - company: "Amazon"
-            companyUrl: "https://example.com"
+                      url: https://x.com/nocolacoid
+          - company: "Alif Mas Jaya"
+            companyUrl: "#"
             jobs:
-              - name: "Pengembang Perangkat Lunak"
-                date: "Sep 2020 - Des 2021"
-                info:
-                  content: Saya bekerja sebagai pengembang perangkat lunak selama lebih dari satu tahun di Amazon.
+              - name: "Magang IT Support"
+                date: "Feb 2022 - June 2022"
                 content: |
-                  Saat ini saya bekerja sebagai pengembang perangkat lunak di [organisasi contoh](https://example.com) di San Francisco, CA. Saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota.
+                  Menyediakan dukungan teknis untuk komputer, printer, dan infrastruktur jaringan lokal di RSIA Ummu Hani. Membantu pengguna dalam memecahkan masalah perangkat keras dan perangkat lunak untuk memastikan operasional harian berjalan lancar.
 
-                  - Pengembang backend utama untuk sebuah produk.
-                  - Membuat desain frontend untuk sebuah produk.
-          - company: "Apple"
-            companyUrl: "https://example.com"
-            jobs:
-              - name: "Pengembang Perangkat Lunak Junior"
-                date: "Jan 2020 - Agu 2020"
-                featuredItems:
-                  fontAwesomeIcons:
-                    - icon: fa-brands fa-react
-                      url: https://react.dev/
-                    - icon: fab fa-x-twitter
-                      url: https://example.com
-                  customIcons:
-                    - icon: /fav.png
-                      url: "https://example.com"
-                content: |
-                  Saat ini saya bekerja sebagai pengembang perangkat lunak di [organisasi contoh](https://example.com) di San Francisco, CA. Saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota.
-
-                  - Pengembang backend utama untuk sebuah produk.
-                  - Membuat desain frontend untuk sebuah produk.
-          - company: "Netflix"
-            companyUrl: "https://example.com"
-            jobs:
-              - name: "Perancang UI/UX"
-                date: "Juni 2017 - Nov 2019"
-                content: |
-                  Saat ini saya bekerja sebagai pengembang perangkat lunak di [organisasi contoh](https://example.com) di San Francisco, CA. Saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota.
-
-                  - Pengembang backend utama untuk sebuah produk.
-                  - Membuat desain frontend untuk sebuah produk.
-          - company: "Google"
-            companyUrl: "https://example.com"
-            jobs:
-              - name: "Perancang Produk"
-                date: "Feb 2016 - Mar 2017"
-                content: "Saat ini saya bekerja sebagai pengembang perangkat lunak di [organisasi contoh](https://example.com) di San Francisco, CA. Saya sedang mengerjakan proyek yang akan digunakan untuk membantu orang menemukan cara terbaik untuk berkeliling kota."
+                  - Menyediakan pemeliharaan dan pemecahan masalah komputer
+                  - Mengonfigurasi printer dan jaringan lokal
+                  - Membantu operasional dukungan IT harian di RSIA Ummu Hani
       education:
+        enable: true
+        index: false
         items:
-          - title: "Magister Administrasi Bisnis"
+          - title: "Sarjana Rekayasa Perangkat Lunak"
             school:
-              name: "Universitas California, Berkeley"
-              url: "https://example.org"
-            date: "2013 - 2015"
-            GPA: "3.8 dari 5.0"
+              name: "Telkom University Purwokerto"
+              url: "https://purwokerto.telkomuniversity.ac.id/"
+            date: "2023 - Sekarang"
+            GPA: "3.8 dari 4.0"
             content: |-
-              Kegiatan Ekstrakurikuler
-                - Lorem ipsum dolor sit amet  consectetur adipisicing elit.
-                - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-          - title: "Sarjana Ilmu Komputer"
+              - Saat ini sedang menempuh gelar Sarjana di bidang Rekayasa Perangkat Lunak.
+              - Mantan anggota Google Developer Student Clubs (GDSC) (sekarang Google Developer Groups on Campus / GDGoC) selama tahun pertama saya.
+              - Berpartisipasi aktif dalam proyek pengembangan perangkat lunak, hackathon, dan kompetisi pemrograman sepanjang studi saya.
+          - title: "Sekolah Menengah Kejuruan"
             school:
-              name: "Institut Teknologi Massachusetts"
-              url: "https://example.org"
-            date: "2009 - 2013"
-            GPA: "3.9 dari 5.0"
-            content: |-
-              Mempublikasikan dua makalah di Konferensi ACM SIGCHI tentang Kecerdasan Buatan.
-              - [Deteksi Objek Cepat dan Akurat dengan Convolutional Neural Network](https://example.com)
-              - Deteksi masker wajah menggunakan convolutional neural network.
-
-              Kegiatan Ekstrakurikuler
-                - Lorem ipsum dolor sit amet  consectetur adipisicing elit.
-                - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-            featuredLink:
-              enable: true
-              name: "Transkrip Akademik Saya"
-              url: "https://example.com"
-          - title: "Sekolah Menengah Atas"
-            school:
-              name: "SMA Thomas Jefferson untuk Sains dan Teknologi."
-              url: "https://example.org"
+              name: "SMK Negeri 1 Purbalingga"
+              url: "https://smkn1purbalingga.sch.id/"
+            date: "2020 - 2023"
             GPA: "4.2 dari 5.0"
-            featuredLink:
-              enable: true
-              url: "https://example.com"
-      projects:
-        items:
-          - title: Hugo Profile
-            content: Sebuah templat Hugo yang sangat dapat disesuaikan dan berfokus pada seluler untuk portofolio pribadi dan blog.
-            image: /images/projects/profile.png
-            featured:
-              name: Demo
-              link: https://hugo-profile.netlify.app
-            badges:
-              - "Hugo"
-              - "Bootstrap"
-              - "Javascript"
-            links:
-              - icon: fa fa-envelope
-                url: mailto:?subject=Templat%20Hugo%20Profile&body=Lihat%20ini:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-              - icon: fab fa-github
-                url: https://github.com/gurusabarish/hugo-profile
-              - icon: fab fa-twitter
-                url: https://twitter.com/intent/tweet?text=Lihat+ini:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-          - title: Konverter Gambar
-            content: Sebuah aplikasi web untuk mengonversi gambar ke pdf, png ke jpg, png ke jpg dan png ke webp tanpa database menggunakan django.
-            image: /images/projects/converter.jpg
-            featured:
-              name: Demo
-              link: https://django-converter.herokuapp.com
-            badges:
-              - "Django"
-              - "Bootstrap"
-            links:
-              - icon: fab fa-github
-                url: https://github.com/gurusabarish/converter
-          - title: Hugo Profile V2
-            content: Sebuah templat Hugo yang bersih dan sederhana untuk portofolio pribadi dan blog.
-            image: /images/projects/profile2.jpg
-            featured:
-              name: Demo V2
-              link: https://hugo-profile-2.netlify.app
-            badges:
-              - "Hugo"
-              - "Bootstrap"
-              - "Javascript"
-            links:
-              - icon: fab fa-github
-                url: https://github.com/gurusabarish/HugoProfileV2
+            content: |-
+              - Mengambil jurusan Rekayasa Perangkat Lunak (RPL).
+              - Berkompetisi dalam Lomba Kompetensi Siswa (LKS) bidang Web Technologies dan maju ke tingkat provinsi.
       achievements:
+        enable: true
         items:
-          - title: Finalis Google Kickstart
-            content: Menyelesaikan semua masalah dengan solusi optimal.
-            url: https://example.com
-            image: /images/achievement.jpg
-          - title: Pemenang Hackathon Facebook
-            content: Mengembangkan produk menggunakan Kecerdasan Buatan.
-            image: /images/achievement.jpg
-          - title: Hugo Profile
-            content: Mengembangkan tema dan mencapai lebih dari 1.000 unduhan per bulan.
-            url: "https://github.com/gurusabarish/hugo-profile"
-            image: /images/achievement.jpg
-          - title: Finalis Microsoft Imagine
-            content: Mengembangkan produk yang dapat membantu orang lain.
-          - title: Google Summer of Code
-            content: Berkontribusi pada proyek sumber terbuka.
-            url: https://example.com
+          - title: AyoBerAKSI
+            content: Mengembangkan aplikasi koperasi digital untuk mendukung produsen gula kelapa.
+            url: https://drive.google.com/file/d/1DOxxExRFfd-i5fsazEuaXNLNZ9wmDWmG/view
+            image: /images/achievements/ppm-telkom-university.jpg
+          - title: NGOPREK UI/UX
+            content: Berpartisipasi dalam UI/UX bootcamp yang berfokus pada perancangan pengalaman digital yang intuitif menggunakan Figma.
+            url: https://drive.google.com/file/d/1Tz0oWxv1de0Zrn5DQOBPOJ030BKzyNew/view
+            image: /images/achievements/ngoprek-uiux.jpg
+          - title: Hak Kekayaan Intelektual
+            content: Menerima sertifikat HKI untuk sistem penyiraman tanaman otomatis berbasis IoT.
+            url: https://drive.google.com/file/d/1CL8VkbZJz80D3WGF1jherKWdq4aCf5aw/view
+            image: /images/achievements/hki-abdimas.jpg
+          - title: Belajar ReactJS
+            content: Menyelesaikan kelas Belajar ReactJS dalam program Kelas Online CODEPOLITAN.
+            url: https://www.codepolitan.com/c/RP4XDIO
+          - title: React.js 101 - Membuat dan Menggunakan Komponen dalam Aplikasi Berbasis React.js
+            content: Menyelesaikan kelas React.js 101 - Membuat dan Menggunakan Komponen dalam Aplikasi Berbasis React.js dalam program Kelas Online CODEPOLITAN.
+            url: https://www.codepolitan.com/c/RKKH2Q8
+          - title: React.js State - Mengelola Perubahan Tampilan dengan Data bersama Event Handler
+            content: Menyelesaikan kelas React.js State - Mengelola Perubahan Tampilan dengan Data bersama Event Handler dalam program Kelas Online CODEPOLITAN.
+            url: https://www.codepolitan.com/c/KDLPEQH
+          - title: React.js State Management - Panduan Menggunakan State yg Baik
+            content: Menyelesaikan kelas React.js State Management - Panduan Menggunakan State yg Baik dalam program Kelas Online CODEPOLITAN.
+            url: https://www.codepolitan.com/c/UTCTB8A
+          - title: Belajar React.js dengan Membuat Aplikasi Split Bill
+            content: Menyelesaikan kelas Belajar React.js dengan Membuat Aplikasi Split Bill dalam program Kelas Online CODEPOLITAN.
+            url: https://www.codepolitan.com/c/R8TKWSE
+          - title: React.js - Belajar Lebih Dalam Tentang Component dan Jenisnya
+            content: Menyelesaikan kelas React.js - Belajar Lebih Dalam Tentang Component dan Jenisnya dalam program Kelas Online CODEPOLITAN.
+            url: https://www.codepolitan.com/c/Q78COXA
+      projects:
+        enable: true
+        items:
+          - title: SiMTA (WIP)
+            content: Sistem manajemen tugas akhir (skripsi) untuk Telkom University Purwokerto.
+            image: /images/projects/simta-tup.png
+            badges:
+              - "React"
+              - "Express"
+              - "Prisma"
+          - title: SafeNest Indonesia
+            content: Platform konservasi burung yang dikembangkan untuk Biodiversity Society untuk mendukung upaya konservasi dan manajemen sarang.
+            image: /images/projects/safenest.png
+            featured:
+              name: Kunjungi
+              link: https://www.safenest.id
+            badges:
+              - "Next"
+              - "Express"
+              - "Prisma"
+            links:
+              - icon: fab fa-facebook
+                url: https://www.facebook.com/safenestindonesia
+              - icon: fab fa-instagram
+                url: https://www.instagram.com/safenestindonesia
+              - icon: fab fa-tiktok
+                url: https://www.tiktok.com/@safenestindonesia
+              - icon: fab fa-linkedin
+                url: https://www.linkedin.com/company/safenestid
+          - title: LadangGo
+            content: Platform pertanian bertenaga AI untuk prediksi panen dan rekomendasi pertanian pintar.
+            image: /images/projects/ladanggo.png
+            featured:
+              name: Kunjungi
+              link: https://ai.ladanggo.id
+            badges:
+              - "Node"
+              - "React"
+              - "Go"
+            links:
+              - icon: fab fa-instagram
+                url: https://www.instagram.com/ladanggo/
+              - icon: fab fa-linkedin
+                url: https://www.linkedin.com/company/ladanggo-agritech-smart-supply-chain/
+          - title: Random Anime Recommendation
+            content: Aplikasi web yang merekomendasikan anime acak menggunakan data dari Jikan API.
+            image: /images/projects/random-anime-recommendation.png
+            featured:
+              name: Kunjungi
+              link: https://random-anime-recommendation-izardaffa.vercel.app/
+            badges:
+              - "Vite"
+              - "React"
+              - "daisyUI"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/izardaffa/random-anime-recommendation
+          - title: MP Runners
+            content: Game Canvas HTML berbasis browser yang dikembangkan untuk kompetisi Hari Kemerdekaan CodeCafe.
+            image: /images/projects/mp-runners.png
+            featured:
+              name: Kunjungi
+              link: https://izardaffa.github.io/mp-runners/
+            badges:
+              - "Javascript"
+              - "HTML"
+              - "Canvas"
+            links:
+              - icon: fab fa-instagram
+                url: https://www.instagram.com/codecafe_id/
+              - icon: fab fa-youtube
+                url: https://www.youtube.com/@codecafe_id
+              - icon: fab fa-github
+                url: https://github.com/izardaffa/mp-runners
+              - icon: fas fa-award
+                url: https://drive.google.com/file/d/132UL9n0WTXFvV8gTuj-maBnoAlppYYr5/view
+          - title: Mobil Jagoan
+            content: Game balapan Canvas HTML yang dikembangkan untuk prototipe LKS Web Technologies Purbalingga 2023.
+            image: /images/projects/racing-game.png
+            featured:
+              name: Kunjungi
+              link: https://izardaffa.github.io/racing-game/
+            badges:
+              - "Javascript"
+              - "HTML"
+              - "Canvas"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/izardaffa/racing-game
       contact:
-        content: Kotak masuk saya selalu terbuka. Baik Anda memiliki pertanyaan atau hanya ingin menyapa, saya akan melakukan yang terbaik untuk membalas Anda!
-        btnName: Hubungi Saya
+        enable: true
+        content: Mari kita bangun sesuatu bersama. Jika Anda ingin mendiskusikan suatu proyek, mengajukan pertanyaan, atau sekadar terhubung, jangan ragu untuk menghubungi melalui Discord.
+        btnName: Hubungi di Discord
   ja:
-    contentDir: "content/ja"
     label: "日本語"
     weight: 3
+    contentDir: "content/ja"
     menu:
       main:
         - identifier: blog
@@ -248,194 +277,223 @@ languages:
           weight: 2
     params:
       hero:
+        enable: true
         intro: "こんにちは、私の名前は"
         title: "izardaffa."
-        subtitle: "ウェブ制作を行っています"
-        content: "情熱的なウェブアプリ開発者です。見栄えが良く、使い心地が素晴らしく、正しく機能するウェブサイトを構築するために、モダンなウェブ技術を活用しています。"
+        subtitle: "デジタルソリューションのエンジニアリング"
+        content: "モダンなウェブアプリケーションの構築を楽しむウェブ開発者です。コードを書いていないときは、アニメを見たり、アニソンを聴いたり、他のサイドプロジェクトに取り組んだりしています。"
+        image: /images/hero.png
         button:
+          enable: true
           name: "履歴書"
       about:
+        enable: true
         title: "自己紹介"
+        image: "/images/me.jpg"
         content: |-
-          ウェブ開発に情熱を持つソフトウェア開発者です。コンピュータサイエンスと数学のバックグラウンドがあり、テクノロジーとアートの交差点に強い関心を持っています。現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でソフトウェア開発者として働いています。
+          こんにちは！私はニザール（Nizar）です。[テルコム大学](https://telkomuniversity.ac.id/)でソフトウェアエンジニアリングを専攻している大学生で、ウェブアプリケーション開発に情熱を注いでいます。ソフトウェア開発の道のりは高校（SMK）の時から始まり、それ以来、コードを通じてアイデアを現実の製品に変えることを大いに楽しんでいます。
 
-          現在は、人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。
+          現在は[SafeNest Indonesia](https://www.linkedin.com/company/safenestid/)に貢献し、鳥類保護プラットフォームの開発を支援しながら、大学のプロジェクトやフリーランスの仕事にも取り組んでいます。新しい技術を探求し、問題を解決し、ソフトウェア構築の方法を常に向上させることが好きです。
         skills:
+          enable: true
           title: "最近主に使用している技術は以下の通りです："
       experience:
+        enable: true
         items:
-          - company: "Facebook"
-            companyUrl: "https://example.com"
+          - company: "Freelance"
+            companyUrl: "#"
             jobs:
-              - name: "シニアソフトウェア開発者"
-                date: "2023年1月 - 現在"
-                content: "現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でシニアソフトウェア開発者として働いています。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。"
-                info:
-                  content: シニアソフトウェア開発者として勤務
+              - name: "フリーランスのウェブ開発者"
+                date: "2023 - 現在"
+                content: |
+                  クライアントと連携してウェブサイトやウェブアプリケーションを構築し、フロントエンド、バックエンド、フルスタック開発を担当。React、Express.js、Laravel、MySQLなどのモダンなウェブ技術を使用して、企業プロフィールから管理システムまで幅広いプロジェクトを納品しました。
+
+                  主なクライアント
+                  - SafeNest Indonesia
+                  - Museum Gerabah Kebumen
+                  - LadangGo
+                  - Sistem Inspeksi Nusakura
+          - company: "Nocola IoT Solution"
+            companyUrl: "https://nocola.co.id/"
+            jobs:
+              - name: "ソフトウェア開発者インターン（パートタイム）"
+                date: "2024年12月 - 2025"
+                content: |
+                  既存のReactベースのウェブアプリケーションの開発および保守に貢献。新機能の実装、バグ修正、および開発チームと連携してアプリケーションの機能性とユーザーエクスペリエンスを向上させました。
+
+                  - Reactベースのウェブアプリケーションの開発と保守
+                  - 新機能の実装と既存問題の解決
+                  - 開発チームとの共同作業
                 featuredItems:
                   fontAwesomeIcons:
-                    - icon: fa-brands fa-react
-                      url: https://react.dev/
-                      tooltip: ツールチップの表示例
+                    - icon: fab fa-linkedin
+                      url: https://www.linkedin.com/company/nocola-iot-solution/
+                    - icon: fab fa-instagram
+                      url: https://www.instagram.com/nocola_id/
+                    - icon: fab fa-facebook
+                      url: https://www.facebook.com/nocola.co.id
                     - icon: fab fa-x-twitter
-                      url: https://example.com
-                  customIcons:
-                    - icon: /fav.png
-                      url: "https://example.com"
-                      tooltip: ツールチップの表示例
-              - name: "ソフトウェア開発者"
-                date: "2022年1月 - 2023年12月"
-                content: "ソフトウェア開発者として勤務していました。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいました。"
-          - company: "Amazon"
-            companyUrl: "https://example.com"
+                      url: https://x.com/nocolacoid
+          - company: "Alif Mas Jaya"
+            companyUrl: "#"
             jobs:
-              - name: "ソフトウェア開発者"
-                date: "2020年9月 - 2021年12月"
-                info:
-                  content: Amazonのソフトウェア開発者として1年以上勤務していました。
+              - name: "ITサポートインターン"
+                date: "2022年2月 - 2022年6月"
                 content: |
-                  現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でソフトウェア開発者として働いています。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。
+                  RSIA Ummu Haniにて、コンピュータ、プリンター、ローカルネットワークインフラのテクニカルサポートを提供。ハードウェアおよびソフトウェアの問題解決においてユーザーを支援し、日々の業務が円滑に進行するようにしました。
 
-                  - 製品のメインバックエンド開発者。
-                  - 製品のフロントエンドデザインを作成。
-          - company: "Apple"
-            companyUrl: "https://example.com"
-            jobs:
-              - name: "ジュニアソフトウェア開発者"
-                date: "2020年1月 - 2020年8月"
-                featuredItems:
-                  fontAwesomeIcons:
-                    - icon: fa-brands fa-react
-                      url: https://react.dev/
-                    - icon: fab fa-x-twitter
-                      url: https://example.com
-                  customIcons:
-                    - icon: /fav.png
-                      url: "https://example.com"
-                content: |
-                  現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でソフトウェア開発者として働いています。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。
-
-                  - 製品のメインバックエンド開発者。
-                  - 製品のフロントエンドデザインを作成。
-          - company: "Netflix"
-            companyUrl: "https://example.com"
-            jobs:
-              - name: "UI/UXデザイナー"
-                date: "2017年6月 - 2019年11月"
-                content: |
-                  現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でソフトウェア開発者として働いています。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。
-
-                  - 製品のメインバックエンド開発者。
-                  - 製品のフロントエンドデザインを作成。
-          - company: "Google"
-            companyUrl: "https://example.com"
-            jobs:
-              - name: "プロダクトデザイナー"
-                date: "2016年2月 - 2017年3月"
-                content: "現在は、カリフォルニア州サンフランシスコの [example org.](https://example.com) でソフトウェア開発者として働いています。人々が街を移動する最適な方法を見つけるのに役立つプロジェクトに取り組んでいます。"
+                  - コンピュータの保守およびトラブルシューティングの提供
+                  - プリンターとローカルネットワークの構成
+                  - RSIA Ummu Haniにおける日々のITサポート業務の支援
       education:
+        enable: true
+        index: false
         items:
-          - title: "経営学修士 (MBA)"
+          - title: "ソフトウェアエンジニアリング学士"
             school:
-              name: "カリフォルニア大学バークレー校"
-              url: "https://example.org"
-            date: "2013 - 2015"
-            GPA: "GPA: 3.8 / 5.0"
+              name: "Telkom University Purwokerto"
+              url: "https://purwokerto.telkomuniversity.ac.id/"
+            date: "2023 - 現在"
+            GPA: "3.8 / 4.0"
             content: |-
-              課外活動
-                - Lorem ipsum dolor sit amet  consectetur adipisicing elit.
-                - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-          - title: "理学士（コンピュータサイエンス）"
+              - 現在、ソフトウェアエンジニアリングの学士号を取得中。
+              - 1年目にGoogle Developer Student Clubs (GDSC)（現在のGoogle Developer Groups on Campus / GDGoC）の元メンバーとして活動。
+              - 在学中、ソフトウェア開発プロジェクト、ハッカソン、プログラミングコンテストに積極的に参加。
+          - title: "職業高校"
             school:
-              name: "マサチューセッツ工科大学"
-              url: "https://example.org"
-            date: "2009 - 2013"
-            GPA: "GPA: 3.9 / 5.0"
+              name: "SMK Negeri 1 Purbalingga"
+              url: "https://smkn1purbalingga.sch.id/"
+            date: "2020 - 2023"
+            GPA: "4.2 / 5.0"
             content: |-
-              人工知能に関するACM SIGCHIカンファレンスで2本の論文を発表しました。
-              - [畳み込みニューラルネットワークを用いた高速かつ高精度な物体検出](https://example.com)
-              - 畳み込みニューラルネットワークを用いた顔マスク検出。
-
-              課外活動
-                - Lorem ipsum dolor sit amet  consectetur adipisicing elit.
-                - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-            featuredLink:
-              enable: true
-              name: "学術成績証明書"
-              url: "https://example.com"
-          - title: "高校"
-            school:
-              name: "トーマス・ジェファーソン科学技術高校"
-              url: "https://example.org"
-            GPA: "GPA: 4.2 / 5.0"
-            featuredLink:
-              enable: true
-              url: "https://example.com"
-      projects:
-        items:
-          - title: Hugo Profile
-            content: 個人ポートフォリオとブログ向けの、高度にカスタマイズ可能でモバイルフレンドリーなHugoテンプレート。
-            image: /images/projects/profile.png
-            featured:
-              name: デモ
-              link: https://hugo-profile.netlify.app
-            badges:
-              - "Hugo"
-              - "Bootstrap"
-              - "Javascript"
-            links:
-              - icon: fa fa-envelope
-                url: mailto:?subject=Hugo%20Profile%20テンプレート&body=チェックアウト:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-              - icon: fab fa-github
-                url: https://github.com/gurusabarish/hugo-profile
-              - icon: fab fa-twitter
-                url: https://twitter.com/intent/tweet?text=チェックアウト:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-          - title: 画像コンバーター
-            content: Djangoを使用してデータベースなしで画像をpdf、pngからjpg、pngからjpg、pngからwebpに変換するウェブアプリケーション。
-            image: /images/projects/converter.jpg
-            featured:
-              name: デモ
-              link: https://django-converter.herokuapp.com
-            badges:
-              - "Django"
-              - "Bootstrap"
-            links:
-              - icon: fab fa-github
-                url: https://github.com/gurusabarish/converter
-          - title: Hugo Profile V2
-            content: 個人ポートフォリオとブログ向けのクリーンでシンプルなHugoテンプレート。
-            image: /images/projects/profile2.jpg
-            featured:
-              name: デモ V2
-              link: https://hugo-profile-2.netlify.app
-            badges:
-              - "Hugo"
-              - "Bootstrap"
-              - "Javascript"
-            links:
-              - icon: fab fa-github
-                url: https://github.com/gurusabarish/HugoProfileV2
+              - ソフトウェアエンジニアリング（RPL）を専攻。
+              - Web Technologies分野のLKS（学生技能競技大会）に出場し、州大会に進出。
       achievements:
+        enable: true
         items:
-          - title: Google Kickstart ファイナリスト
-            content: すべての問題を最適な解法で解決しました。
-            url: https://example.com
-            image: /images/achievement.jpg
-          - title: Facebook ハッカソン勝者
-            content: 人工知能を用いた製品を開発しました。
-            image: /images/achievement.jpg
-          - title: Hugo Profile
-            content: テーマを開発し、月間1,000回以上のダウンロード数を達成。
-            url: "https://github.com/gurusabarish/hugo-profile"
-            image: /images/achievement.jpg
-          - title: Microsoft Imagine ファイナリスト
-            content: 他者を支援できる製品を開発しました。
-          - title: Google Summer of Code
-            content: オープンソースプロジェクトに貢献しました。
-            url: https://example.com
+          - title: AyoBerAKSI
+            content: ココナッツシュガー生産者を支援するためのデジタル協同組合アプリケーションの開発。
+            url: https://drive.google.com/file/d/1DOxxExRFfd-i5fsazEuaXNLNZ9wmDWmG/view
+            image: /images/achievements/ppm-telkom-university.jpg
+          - title: NGOPREK UI/UX
+            content: Figmaを使用した直感的なデジタル体験の設計に焦点当てたUI/UXブートキャンプへの参加。
+            url: https://drive.google.com/file/d/1Tz0oWxv1de0Zrn5DQOBPOJ030BKzyNew/view
+            image: /images/achievements/ngoprek-uiux.jpg
+          - title: 知的財産権
+            content: IoTベースの自動植物散水システムの知的財産権（HKI）証明書を取得。
+            url: https://drive.google.com/file/d/1CL8VkbZJz80D3WGF1jherKWdq4aCf5aw/view
+            image: /images/achievements/hki-abdimas.jpg
+          - title: Belajar ReactJS
+            content: CODEPOLITANオンラインクラスプログラムでReactJS学習コースを修了。
+            url: https://www.codepolitan.com/c/RP4XDIO
+          - title: React.js 101 - Membuat dan Menggunakan Komponen dalam Aplikasi Berbasis React.js
+            content: CODEPOLITANオンラインクラスプログラムでReact.js 101 - React.jsベースのアプリケーションでのコンポーネントの作成と使用コースを修了。
+            url: https://www.codepolitan.com/c/RKKH2Q8
+          - title: React.js State - Mengelola Perubahan Tampilan dengan Data bersama Event Handler
+            content: CODEPOLITANオンラインクラスプログラムでReact.js State - イベントハンドラーを使用したデータによる表示変更の管理コースを修了。
+            url: https://www.codepolitan.com/c/KDLPEQH
+          - title: React.js State Management - Panduan Menggunakan State yg Baik
+            content: CODEPOLITANオンラインクラスプログラムでReact.js State Management - 適切なState使用ガイドコースを修了。
+            url: https://www.codepolitan.com/c/UTCTB8A
+          - title: Belajar React.js dengan Membuat Aplikasi Split Bill
+            content: CODEPOLITANオンラインクラスプログラムでSplit Billアプリケーション作成によるReact.jsの学習コースを修了。
+            url: https://www.codepolitan.com/c/R8TKWSE
+          - title: React.js - Belajar Lebih Dalam Tentang Component dan Jenisnya
+            content: CODEPOLITANオンラインクラスプログラムでReact.js - コンポーネントとその種類についてより深く学ぶコースを修了。
+            url: https://www.codepolitan.com/c/Q78COXA
+      projects:
+        enable: true
+        items:
+          - title: SiMTA (WIP)
+            content: テルコム大学プルウォケルトの卒業論文管理システム。
+            image: /images/projects/simta-tup.png
+            badges:
+              - "React"
+              - "Express"
+              - "Prisma"
+          - title: SafeNest Indonesia
+            content: 鳥類保護と巣の管理活動を支援するためにBiodiversity Society向けに開発された鳥類保護プラットフォーム。
+            image: /images/projects/safenest.png
+            featured:
+              name: 訪問
+              link: https://www.safenest.id
+            badges:
+              - "Next"
+              - "Express"
+              - "Prisma"
+            links:
+              - icon: fab fa-facebook
+                url: https://www.facebook.com/safenestindonesia
+              - icon: fab fa-instagram
+                url: https://www.instagram.com/safenestindonesia
+              - icon: fab fa-tiktok
+                url: https://www.tiktok.com/@safenestindonesia
+              - icon: fab fa-linkedin
+                url: https://www.linkedin.com/company/safenestid
+          - title: LadangGo
+            content: 収穫予測とスマート農業の推奨を行うAI搭載の農業プラットフォーム。
+            image: /images/projects/ladanggo.png
+            featured:
+              name: 訪問
+              link: https://ai.ladanggo.id
+            badges:
+              - "Node"
+              - "React"
+              - "Go"
+            links:
+              - icon: fab fa-instagram
+                url: https://www.instagram.com/ladanggo/
+              - icon: fab fa-linkedin
+                url: https://www.linkedin.com/company/ladanggo-agritech-smart-supply-chain/
+          - title: Random Anime Recommendation
+            content: Jikan APIのデータを使用してランダムにアニメを推奨するウェブアプリケーション。
+            image: /images/projects/random-anime-recommendation.png
+            featured:
+              name: 訪問
+              link: https://random-anime-recommendation-izardaffa.vercel.app/
+            badges:
+              - "Vite"
+              - "React"
+              - "daisyUI"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/izardaffa/random-anime-recommendation
+          - title: MP Runners
+            content: CodeCafeの独立記念日コンテスト用に開発されたブラウザベースのHTML Canvasゲーム。
+            image: /images/projects/mp-runners.png
+            featured:
+              name: 訪問
+              link: https://izardaffa.github.io/mp-runners/
+            badges:
+              - "Javascript"
+              - "HTML"
+              - "Canvas"
+            links:
+              - icon: fab fa-instagram
+                url: https://www.instagram.com/codecafe_id/
+              - icon: fab fa-youtube
+                url: https://www.youtube.com/@codecafe_id
+              - icon: fab fa-github
+                url: https://github.com/izardaffa/mp-runners
+              - icon: fas fa-award
+                url: https://drive.google.com/file/d/132UL9n0WTXFvV8gTuj-maBnoAlppYYr5/view
+          - title: Mobil Jagoan
+            content: LKS Web Technologies Purbalingga 2023のプロトタイプ向けに開発されたHTML Canvasカーレースゲーム。
+            image: /images/projects/racing-game.png
+            featured:
+              name: 訪問
+              link: https://izardaffa.github.io/racing-game/
+            badges:
+              - "Javascript"
+              - "HTML"
+              - "Canvas"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/izardaffa/racing-game
       contact:
-        content: お気軽にメッセージをお送りください。質問がある場合でも、挨拶だけでも大歓迎です！できる限り早くお返事いたします。
-        btnName: メッセージを送る
+        enable: true
+        content: 一緒に何かを作り上げましょう。プロジェクトの相談、質問、または単に繋がりたい場合は、お気軽にDiscordからご連絡ください。
+        btnName: Discordで連絡する
 
 outputs:
   home:
@@ -933,3 +991,4 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
